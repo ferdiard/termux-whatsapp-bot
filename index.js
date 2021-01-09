@@ -15,14 +15,14 @@ const speed = require('performance-now');
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = 'Lexa'; 
-const instagram = 'http://www.instagram.com/mrf.zvx'; 
-const aktif = '08:00 - 22:00';
+const BotName = 'FerdBot'; 
+const instagram = 'http://www.instagram.com/ferdi_ardian21'; 
+const aktif = '08:00 - 23:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Mrf.zvx\n' // Nama kamu
-            + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6282223014661:+62 822-2301-4661\n' //Nomor whatsapp kamu
+            + 'FN:FerdiArdian\n' // Nama kamu
+            + 'ORG:FerdBot;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=6282169369877:+62 821-6936-9877\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
@@ -575,7 +575,7 @@ conn.sendMessage(id, 'Silakan ulangi dengan mengirim foto dengan caption .stiker
       }
    };
 
-  //Info convid
+  //Info covid
 if (text.includes('.Covid')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
